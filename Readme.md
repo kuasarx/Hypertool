@@ -28,3 +28,9 @@ $html->MainTitle->setStyle('color: blue;');
 // Output the HTML
 echo $html->output();
 ```
+
+## TO DO:
+- [ ] Finish the implementation of all html tags.
+- [ ] Add support for [HTMX](https://htmx.org/).
+- [ ] Add support for [Hyperscript](https://hyperscript.org/).
+- [ ] Add suport for Css frameworks like bootstrap or tailwind.
