@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Ol extends HtmlElement {
     public function __construct() {
         parent::__construct('ol');

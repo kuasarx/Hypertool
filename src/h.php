@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class H extends HtmlElement {
     public function __construct($level) {
         parent::__construct("h$level");

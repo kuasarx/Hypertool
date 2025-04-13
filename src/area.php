@@ -1,5 +1,7 @@
 <?php
 
+namespace Hypertool\Html;
+
 class Area extends HtmlElement {
     public function __construct() {
         parent::__construct('area');

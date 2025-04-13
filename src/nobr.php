@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Nobr extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('nobr');

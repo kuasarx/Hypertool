@@ -47,15 +47,22 @@ This PHP library provides a comprehensive, extensible, and fluent interface for 
 
 ## Setup
 
-1. **Clone the repository:**
+1. **Install via Composer:**
    ```sh
-   git clone https://github.com/yourusername/html-element-generator.git
-   cd html-element-generator
+   composer require hypertool/html
    ```
 
-2. **Include the library in your project:**
-   - Directly include the `src/` directory in your PHP project.
-   - Or use Composer (if available in the future).
+2. **Include the Composer autoloader in your project:**
+   ```php
+   require_once 'vendor/autoload.php';
+   ```
+
+3. **Use the namespaced classes:**
+   ```php
+   use Hypertool\Html\HtmlElement;
+   use Hypertool\Html\ScriptManager;
+   // ... etc.
+   ```
 
 3. **(Optional) Configure environment:**
    - Set the `APP_ENV` environment variable to `production` for local asset loading, or leave unset for CDN loading.
@@ -67,7 +74,9 @@ This PHP library provides a comprehensive, extensible, and fluent interface for 
 ### Basic Usage
 
 ```php
-require_once 'src/Html.php';
+// Assumes autoloader is included as per Setup instructions
+use Hypertool\Html\HtmlElement;
+use Hypertool\Html\H1; // Example specific element
 
 // Using the generic HtmlElement class
 $html = new HtmlElement('div');
@@ -80,7 +89,7 @@ echo $html->output();
 #### Using Dedicated Element Classes
 
 ```php
-require_once 'src/Div.php';
+// Assumes autoloader is included and 'use Hypertool\Html\Div;' is present
 $div = new Div('Content inside div');
 echo $div->output();
 ```
@@ -88,6 +97,7 @@ echo $div->output();
 #### Using Static Factory Methods
 
 ```php
+// Assumes autoloader is included and 'use Hypertool\Html\HtmlElement;' is present
 $div = HtmlElement::div('Content inside div');
 echo $div->output();
 ```
@@ -109,6 +119,7 @@ This library provides comprehensive support for [HTMX](https://htmx.org/) and [H
 #### HTMX Usage Example
 
 ```php
+// Assumes autoloader is included and 'use Hypertool\Html\HtmlElement;' is present
 $button = HtmlElement::button('Load Data')
     ->setHxGet('/api/data')
     ->setHxTarget('#result')
@@ -119,6 +130,7 @@ echo $button->output();
 #### Hyperscript Usage Example
 
 ```php
+// Assumes autoloader is included and 'use Hypertool\Html\HtmlElement;' is present
 $button = HtmlElement::button('Click Me')
     ->setHyperscript('on click add .clicked to me');
 echo $button->output();
@@ -127,6 +139,7 @@ echo $button->output();
 #### Combining HTMX and Hyperscript
 
 ```php
+// Assumes autoloader is included and 'use Hypertool\Html\HtmlElement;' is present
 $button = HtmlElement::button('Load & Animate')
     ->setHxGet('/api/data')
     ->setHyperscript('on htmx:afterSwap add .animated to #result');
@@ -137,10 +150,10 @@ echo $button->output();
 
 ### Automated Script Injection
 
-Use the `ScriptManager` class for robust, environment-aware script loading:
+Use the `ScriptManager` class (now namespaced) for robust, environment-aware script loading:
 
 ```php
-require_once 'src/ScriptManager.php';
+// Assumes autoloader is included and 'use Hypertool\Html\ScriptManager;' is present
 
 // In your page/component:
 ScriptManager::requireHtmx();
@@ -179,7 +192,7 @@ We welcome contributions! To contribute:
 - If adding new HTMX/Hyperscript features, update the relevant setters and documentation.
 
 **To report bugs or request features:**
-- Open an issue on [GitHub](https://github.com/yourusername/html-element-generator/issues).
+- Open an issue on [GitHub](https://github.com/hypertool/html/issues). // Updated link
 
 ---
 
@@ -193,5 +206,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [HTMX Documentation](https://htmx.org/docs/)
 - [Hyperscript Documentation](https://hyperscript.org/docs/)
-- [GitHub Repository](https://github.com/yourusername/html-element-generator)
-- [Open an Issue](https://github.com/yourusername/html-element-generator/issues)
+- [GitHub Repository](https://github.com/hypertool/html) // Updated link
+- [Open an Issue](https://github.com/hypertool/html/issues) // Updated link

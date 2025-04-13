@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Xmp extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('xmp');

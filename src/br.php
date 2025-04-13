@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Br extends HtmlElement {
     public function __construct() {
         parent::__construct('br'); // Call the parent constructor with 'br' tag

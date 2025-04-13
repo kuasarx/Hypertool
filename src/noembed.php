@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Noembed extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('noembed');

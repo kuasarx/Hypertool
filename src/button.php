@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Button extends HtmlElement {
     public function __construct($text) {
         parent::__construct('button');

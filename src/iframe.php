@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Iframe extends HtmlElement {
     public function __construct() {
         parent::__construct('iframe'); // Set the tag name to 'iframe'

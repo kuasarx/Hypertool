@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Option extends HtmlElement {
     public function __construct($value, $text = '') {
         parent::__construct('option');

@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 <?php
 class Head extends HtmlElement {
     public function __construct() {

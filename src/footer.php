@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Footer extends HtmlElement {
     public function __construct() {
         parent::__construct('footer'); // Call the parent constructor with 'footer' as the tag name

@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Bdo extends HtmlElement {
     public function __construct($dir, $content = '') {
         parent::__construct('bdo');

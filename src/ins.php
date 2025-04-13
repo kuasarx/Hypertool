@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Ins extends HtmlElement {
     public function __construct() {
         parent::__construct('ins'); // Call the parent constructor with the tag name 'ins'

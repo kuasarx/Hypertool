@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Map extends HtmlElement {
     public function __construct($name) {
         parent::__construct('map');

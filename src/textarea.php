@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Textarea extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('textarea');

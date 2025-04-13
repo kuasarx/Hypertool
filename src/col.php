@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Col extends HtmlElement {
     public function __construct() {
         parent::__construct('col'); // Call parent constructor with the tag name 'col'

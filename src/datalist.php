@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class DataList extends HtmlElement {
     public function __construct($id) {
         parent::__construct('datalist');

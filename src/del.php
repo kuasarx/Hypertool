@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Del extends HtmlElement {
     public function __construct($cite = '', $datetime = '') {
         parent::__construct('del');

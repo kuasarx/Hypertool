@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Label extends HtmlElement {
     public function __construct($for, $text) {
         parent::__construct('label');

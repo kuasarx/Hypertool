@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 /**
  * Helper for including HTMX and Hyperscript scripts in your project.
  * Usage:

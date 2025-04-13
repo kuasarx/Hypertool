@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Meter extends HtmlElement {
     public function __construct($value = null, $min = null, $max = null) {
         parent::__construct('meter');

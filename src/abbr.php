@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Abbr extends HtmlElement {
     public function __construct($title, $text = null) {
         parent::__construct('abbr');

@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Main extends HtmlElement {
     public function __construct() {
         parent::__construct('main'); // Set the tag name to 'main'

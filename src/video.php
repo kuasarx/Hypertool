@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Video extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('video');

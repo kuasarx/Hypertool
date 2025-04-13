@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 /**
  * ScriptManager: Automated, environment-aware script injection for HTMX and Hyperscript.
  * - Prevents duplicate inclusions

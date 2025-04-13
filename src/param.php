@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Param extends HtmlElement {
     public function __construct($name, $value) {
         parent::__construct('param');

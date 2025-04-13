@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Multicol extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('multicol');

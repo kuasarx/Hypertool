@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Link extends HtmlElement {
     public function __construct() {
         parent::__construct('link'); // Initialize with the 'link' tag

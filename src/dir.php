@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Dir extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('dir');

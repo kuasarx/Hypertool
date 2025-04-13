@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Bgsound extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('bgsound');

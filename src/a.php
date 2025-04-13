@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class A extends HtmlElement {
     public function __construct($href = '') {
         parent::__construct('a');

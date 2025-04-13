@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Embed extends HtmlElement {
     public function __construct($src) {
         parent::__construct('embed');

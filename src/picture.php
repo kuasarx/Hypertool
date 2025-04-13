@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 // TODO: This is just a placeholder for now.
 class HtmlPicture extends HtmlElement {
     public function __construct() {

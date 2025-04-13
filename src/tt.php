@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Tt extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('tt');

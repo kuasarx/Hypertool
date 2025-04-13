@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Blockquote extends HtmlElement {
     public function __construct() {
         parent::__construct('blockquote'); // Call the parent class constructor with the 'blockquote' tag

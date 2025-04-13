@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Optgroup extends HtmlElement {
     public function __construct() {
         parent::__construct('optgroup');

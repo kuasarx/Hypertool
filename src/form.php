@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Form extends HtmlElement {
     public function __construct() {
         parent::__construct('form'); // Call the parent constructor with 'form' as the tag name

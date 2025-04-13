@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Colgroup extends HtmlElement {
     public function __construct() {
         parent::__construct('colgroup');

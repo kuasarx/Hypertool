@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Article extends HtmlElement {
     public function __construct() {
         parent::__construct('article'); // Set the tag name to 'article'

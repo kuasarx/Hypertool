@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Wbr extends HtmlElement {
     public function __construct($content = '') {
         parent::__construct('wbr');

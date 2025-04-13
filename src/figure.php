@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Figure extends HtmlElement {
     public function __construct($caption = '') {
         parent::__construct('figure');

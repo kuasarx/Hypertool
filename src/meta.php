@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Meta extends HtmlElement {
     public function __construct($name, $content) {
         parent::__construct('meta');

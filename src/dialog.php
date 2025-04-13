@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Dialog extends HtmlElement {
     public function __construct() {
         parent::__construct('dialog'); // Call the parent constructor with the 'dialog' tag name

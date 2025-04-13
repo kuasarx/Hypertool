@@ -1,0 +1,22 @@
+{
+    "name": "hypertool/html",
+    "description": "A comprehensive PHP library for generating HTML elements with HTMX and Hyperscript support.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hypertool User",
+            "email": "user@example.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hypertool\\Html\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

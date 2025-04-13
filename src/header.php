@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Header extends HtmlElement {
     public function __construct() {
         parent::__construct('header'); // Call the parent constructor with 'header' as the tag name

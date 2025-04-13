@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Dt extends HtmlElement {
     public function __construct($term) {
         parent::__construct('dt');

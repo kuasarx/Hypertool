@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Bdi extends HtmlElement {
     public function __construct($text) {
         parent::__construct('bdi');

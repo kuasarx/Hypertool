@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Data extends HtmlElement {
     public function __construct($value) {
         parent::__construct('data'); // Call the parent constructor with 'data' as the tag name

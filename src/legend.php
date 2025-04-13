@@ -1,4 +1,7 @@
 <?php
+
+namespace Hypertool\Html;
+
 class Legend extends HtmlElement {
     public function __construct($text) {
         parent::__construct('legend'); // Call the parent constructor with the tag name 'legend'
