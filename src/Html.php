@@ -149,6 +149,226 @@ class HtmlElement {
     public static function wbr($content = '') { return new Wbr($content); }
     public static function xmp($content = '') { return new Xmp($content); }
 
+    // HTMX and Hyperscript Support
+
+    /**
+     * Set the hx-get attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxGet($value) { $this->attributes['hx-get'] = $value; return $this; }
+
+    /**
+     * Set the hx-post attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxPost($value) { $this->attributes['hx-post'] = $value; return $this; }
+
+    /**
+     * Set the hx-put attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxPut($value) { $this->attributes['hx-put'] = $value; return $this; }
+
+    /**
+     * Set the hx-delete attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxDelete($value) { $this->attributes['hx-delete'] = $value; return $this; }
+
+    /**
+     * Set the hx-patch attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxPatch($value) { $this->attributes['hx-patch'] = $value; return $this; }
+
+    /**
+     * Set the hx-target attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxTarget($value) { $this->attributes['hx-target'] = $value; return $this; }
+
+    /**
+     * Set the hx-trigger attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxTrigger($value) { $this->attributes['hx-trigger'] = $value; return $this; }
+
+    /**
+     * Set the hx-swap attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxSwap($value) { $this->attributes['hx-swap'] = $value; return $this; }
+
+    /**
+     * Set the hx-vals attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxVals($value) { $this->attributes['hx-vals'] = $value; return $this; }
+
+    /**
+     * Set the hx-headers attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxHeaders($value) { $this->attributes['hx-headers'] = $value; return $this; }
+
+    /**
+     * Set the hx-include attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxInclude($value) { $this->attributes['hx-include'] = $value; return $this; }
+
+    /**
+     * Set the hx-params attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxParams($value) { $this->attributes['hx-params'] = $value; return $this; }
+
+    /**
+     * Set the hx-push-url attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxPushUrl($value) { $this->attributes['hx-push-url'] = $value; return $this; }
+
+    /**
+     * Set the hx-select attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxSelect($value) { $this->attributes['hx-select'] = $value; return $this; }
+
+    /**
+     * Set the hx-select-oob attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxSelectOob($value) { $this->attributes['hx-select-oob'] = $value; return $this; }
+
+    /**
+     * Set the hx-ext attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxExt($value) { $this->attributes['hx-ext'] = $value; return $this; }
+
+    /**
+     * Set the hx-confirm attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxConfirm($value) { $this->attributes['hx-confirm'] = $value; return $this; }
+
+    /**
+     * Set the hx-disable attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxDisable($value) { $this->attributes['hx-disable'] = $value; return $this; }
+
+    /**
+     * Set the hx-encoding attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxEncoding($value) { $this->attributes['hx-encoding'] = $value; return $this; }
+
+    /**
+     * Set the hx-history attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxHistory($value) { $this->attributes['hx-history'] = $value; return $this; }
+
+    /**
+     * Set the hx-indicator attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxIndicator($value) { $this->attributes['hx-indicator'] = $value; return $this; }
+
+    /**
+     * Set the hx-preserve attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxPreserve($value) { $this->attributes['hx-preserve'] = $value; return $this; }
+
+    /**
+     * Set the hx-prompt attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxPrompt($value) { $this->attributes['hx-prompt'] = $value; return $this; }
+
+    /**
+     * Set the hx-replace-url attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxReplaceUrl($value) { $this->attributes['hx-replace-url'] = $value; return $this; }
+
+    /**
+     * Set the hx-request attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxRequest($value) { $this->attributes['hx-request'] = $value; return $this; }
+
+    /**
+     * Set the hx-sync attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxSync($value) { $this->attributes['hx-sync'] = $value; return $this; }
+
+    /**
+     * Set the hx-validate attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxValidate($value) { $this->attributes['hx-validate'] = $value; return $this; }
+
+    /**
+     * Set the hx-vars attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxVars($value) { $this->attributes['hx-vars'] = $value; return $this; }
+
+    /**
+     * Set the hx-boost attribute for HTMX.
+     * @param string $value
+     * @return $this
+     */
+    public function setHxBoost($value) { $this->attributes['hx-boost'] = $value; return $this; }
+
+    /**
+     * Set the hx-on:* event attribute for HTMX.
+     * @param string $event
+     * @param string $handler
+     * @return $this
+     */
+    public function setHxOn($event, $handler) { $this->attributes["hx-on:$event"] = $handler; return $this; }
+
+    /**
+     * Set the _ (Hyperscript) attribute.
+     * @param string $script
+     * @return $this
+     */
+    public function setHyperscript($script) { $this->attributes['_'] = $script; return $this; }
+
     // Attributes
 
         // Global attributes
@@ -968,16 +1188,6 @@ class HtmlElement {
             $this->attributes['preload'] = $preload;
             return $this;
         }
-
-
-
-
-
-
-
-
-
-
     
     public function add_child($identifier = null, $tagName) {
         // if $identifier is null, count the number of children and add +1
