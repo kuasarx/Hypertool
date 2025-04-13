@@ -28,3 +28,14 @@ $baseElement = new Base('https://www.example.com', '_blank');
 echo $baseElement->output();
 
  */
+/*
+Usage example:
+
+// Using the class directly
+$base = new Base('Sample content');
+echo $base->output();
+
+// Using the static factory method
+$base2 = HtmlElement::base('Sample content');
+echo $base2->output();
+*/

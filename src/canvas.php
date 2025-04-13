@@ -20,3 +20,15 @@ class Canvas extends HtmlElement {
 // $canvas->setWidth(800)->setHeight(600); // Set canvas dimensions
 // 
 // echo $canvas->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$canvas = new Canvas('Sample content');
+echo $canvas->output();
+
+// Using the static factory method
+$canvas2 = HtmlElement::canvas('Sample content');
+echo $canvas2->output();
+*/

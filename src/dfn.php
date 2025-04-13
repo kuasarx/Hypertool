@@ -15,3 +15,15 @@ class Dfn extends HtmlElement {
 // $dfn = new Dfn('Abbreviation');
 // $dfn->setDefinition('A shortened form of a word.');
 // echo $dfn->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$dfn = new Dfn('Sample content');
+echo $dfn->output();
+
+// Using the static factory method
+$dfn2 = HtmlElement::dfn('Sample content');
+echo $dfn2->output();
+*/

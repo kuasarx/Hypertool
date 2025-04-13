@@ -12,3 +12,15 @@ class Form extends HtmlElement {
 // $form->setAction('/submit.php')->setMethod('post')->setEnctype('multipart/form-data')->setTarget('_blank');
 // 
 // echo $form->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$form = new Form('Sample content');
+echo $form->output();
+
+// Using the static factory method
+$form2 = HtmlElement::form('Sample content');
+echo $form2->output();
+*/

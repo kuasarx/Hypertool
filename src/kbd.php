@@ -15,3 +15,15 @@ class Kbd extends HtmlElement {
 // $kbd->setKey('Ctrl');
 // 
 // echo $kbd->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$kbd = new Kbd('Sample content');
+echo $kbd->output();
+
+// Using the static factory method
+$kbd2 = HtmlElement::kbd('Sample content');
+echo $kbd2->output();
+*/

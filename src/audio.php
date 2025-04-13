@@ -22,3 +22,14 @@ $audio->setSrc('audio.mp3')->setControls(true);
 
 echo $audio->output();
  */
+/*
+Usage example:
+
+// Using the class directly
+$audio = new Audio('Sample content');
+echo $audio->output();
+
+// Using the static factory method
+$audio2 = HtmlElement::audio('Sample content');
+echo $audio2->output();
+*/

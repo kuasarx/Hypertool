@@ -10,3 +10,15 @@ class H extends HtmlElement {
 // $heading->setText("Hello, World!"); // Set the text content of the heading
 // 
 // echo $heading->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$h = new H('Sample content');
+echo $h->output();
+
+// Using the static factory method
+$h2 = HtmlElement::h('Sample content');
+echo $h2->output();
+*/

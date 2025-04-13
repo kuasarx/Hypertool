@@ -22,3 +22,15 @@ class Map extends HtmlElement {
 //     ->setAlt('Rectangle Area');
 // 
 // echo $map->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$map = new Map('Sample content');
+echo $map->output();
+
+// Using the static factory method
+$map2 = HtmlElement::map('Sample content');
+echo $map2->output();
+*/

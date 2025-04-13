@@ -16,3 +16,14 @@ class A extends HtmlElement {
 // $anchor->setText('Visit Example')->setClass('link-class')->setTarget('_blank');
 
 // echo $anchor->output();
+/*
+Usage example:
+
+// Using the class directly
+$a = new A('Sample content');
+echo $a->output();
+
+// Using the static factory method
+$a2 = HtmlElement::a('Sample content');
+echo $a2->output();
+*/

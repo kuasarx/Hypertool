@@ -15,3 +15,15 @@ class Col extends HtmlElement {
 // $col->setSpan(2);
 // 
 // echo $col->output(); // Output the generated <col> element
+
+/*
+Usage example:
+
+// Using the class directly
+$col = new Col('Sample content');
+echo $col->output();
+
+// Using the static factory method
+$col2 = HtmlElement::col('Sample content');
+echo $col2->output();
+*/

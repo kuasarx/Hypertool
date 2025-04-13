@@ -19,3 +19,15 @@ class Optgroup extends HtmlElement {
 // $optgroup->addChild('orange', 'Orange')->setClass('fruit');
 // 
 // echo $optgroup->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$optgroup = new Optgroup('Sample content');
+echo $optgroup->output();
+
+// Using the static factory method
+$optgroup2 = HtmlElement::optgroup('Sample content');
+echo $optgroup2->output();
+*/

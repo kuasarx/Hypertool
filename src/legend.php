@@ -9,3 +9,15 @@ class Legend extends HtmlElement {
 // Usage example
 // $legend = new Legend('Form Legend');
 // echo $legend->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$legend = new Legend('Sample content');
+echo $legend->output();
+
+// Using the static factory method
+$legend2 = HtmlElement::legend('Sample content');
+echo $legend2->output();
+*/

@@ -10,3 +10,15 @@ class Div extends HtmlElement {
 // $div->setId('myDiv')->setClass('custom-class');
 // 
 // echo $div->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$div = new Div('Sample content');
+echo $div->output();
+
+// Using the static factory method
+$div2 = HtmlElement::div('Sample content');
+echo $div2->output();
+*/

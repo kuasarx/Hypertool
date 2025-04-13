@@ -16,3 +16,15 @@ class Code extends HtmlElement {
 // $code->language('php');
 // 
 // echo $code->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$code = new Code('Sample content');
+echo $code->output();
+
+// Using the static factory method
+$code2 = HtmlElement::code('Sample content');
+echo $code2->output();
+*/

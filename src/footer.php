@@ -12,3 +12,15 @@ class Footer extends HtmlElement {
 // $footer->setId('footerID')->setClass('footerClass')->text('This is the footer content.');
 // 
 // echo $footer->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$footer = new Footer('Sample content');
+echo $footer->output();
+
+// Using the static factory method
+$footer2 = HtmlElement::footer('Sample content');
+echo $footer2->output();
+*/

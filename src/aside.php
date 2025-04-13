@@ -11,3 +11,14 @@ $aside->setId('asideID')->setClass('asideClass')->text('This is an aside element
 
 echo $aside->output();
 */
+/*
+Usage example:
+
+// Using the class directly
+$aside = new Aside('Sample content');
+echo $aside->output();
+
+// Using the static factory method
+$aside2 = HtmlElement::aside('Sample content');
+echo $aside2->output();
+*/

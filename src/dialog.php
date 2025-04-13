@@ -25,3 +25,15 @@ class Dialog extends HtmlElement {
 // $dialog->add_child('button')->text('Close')->setCloseEvent('closeDialog');
 // 
 // echo $dialog->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$dialog = new Dialog('Sample content');
+echo $dialog->output();
+
+// Using the static factory method
+$dialog2 = HtmlElement::dialog('Sample content');
+echo $dialog2->output();
+*/

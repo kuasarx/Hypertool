@@ -12,3 +12,15 @@ class Noscript extends HtmlElement {
 // $noscript->setText("This page requires JavaScript to be enabled."); // Set the content of the <noscript> element
 // 
 // echo $noscript->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$noscript = new Noscript('Sample content');
+echo $noscript->output();
+
+// Using the static factory method
+$noscript2 = HtmlElement::noscript('Sample content');
+echo $noscript2->output();
+*/

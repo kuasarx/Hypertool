@@ -21,3 +21,14 @@ $address->setName('John Doe')->setAddress('123 Main Street, City, Country');
 
 echo $address->output();
 */
+/*
+Usage example:
+
+// Using the class directly
+$address = new Address('Sample content');
+echo $address->output();
+
+// Using the static factory method
+$address2 = HtmlElement::address('Sample content');
+echo $address2->output();
+*/

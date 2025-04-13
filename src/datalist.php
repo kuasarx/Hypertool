@@ -17,3 +17,15 @@ class DataList extends HtmlElement {
 // $dataList->addOption('option2', 'Option 2');
 // 
 // echo $dataList->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$datalist = new DataList('Sample content');
+echo $datalist->output();
+
+// Using the static factory method
+$datalist2 = HtmlElement::datalist('Sample content');
+echo $datalist2->output();
+*/

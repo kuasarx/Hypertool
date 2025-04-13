@@ -10,3 +10,15 @@ class Mark extends HtmlElement {
 // $mark->setText('Highlighted Text')->setClass('highlight');
 // 
 // echo $mark->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$mark = new Mark('Sample content');
+echo $mark->output();
+
+// Using the static factory method
+$mark2 = HtmlElement::mark('Sample content');
+echo $mark2->output();
+*/

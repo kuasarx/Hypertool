@@ -10,3 +10,15 @@ class Dd extends HtmlElement {
 // $dd->setText('Description of the term');
 // 
 // echo $dd->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$dd = new Dd('Sample content');
+echo $dd->output();
+
+// Using the static factory method
+$dd2 = HtmlElement::dd('Sample content');
+echo $dd2->output();
+*/

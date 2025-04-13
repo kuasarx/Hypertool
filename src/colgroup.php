@@ -15,3 +15,15 @@ class Colgroup extends HtmlElement {
 // $colgroup->addCol('group2');  // Adds a <col> element with a default colspan of 1
 // 
 // echo $colgroup->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$colgroup = new Colgroup('Sample content');
+echo $colgroup->output();
+
+// Using the static factory method
+$colgroup2 = HtmlElement::colgroup('Sample content');
+echo $colgroup2->output();
+*/

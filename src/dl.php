@@ -19,3 +19,15 @@ class Dl extends HtmlElement {
 //    ->addDefinition('Term 3', 'Definition 3');
 // 
 // echo $dl->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$dl = new Dl('Sample content');
+echo $dl->output();
+
+// Using the static factory method
+$dl2 = HtmlElement::dl('Sample content');
+echo $dl2->output();
+*/

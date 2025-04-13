@@ -32,3 +32,15 @@ $picture
     ->addImage('fallback.jpg', 'Alt Text');
 
 echo $picture->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$picture = new HtmlPicture('Sample content');
+echo $picture->output();
+
+// Using the static factory method
+$picture2 = HtmlElement::picture('Sample content');
+echo $picture2->output();
+*/

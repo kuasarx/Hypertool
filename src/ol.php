@@ -17,3 +17,15 @@ class Ol extends HtmlElement {
 //    ->addItem('Item-3','Item 3');
 // 
 // echo $ol->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$ol = new Ol('Sample content');
+echo $ol->output();
+
+// Using the static factory method
+$ol2 = HtmlElement::ol('Sample content');
+echo $ol2->output();
+*/

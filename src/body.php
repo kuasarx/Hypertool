@@ -29,3 +29,14 @@ $body->setOnLoad('loadFunction()')
 
 echo $body->output();
  */
+/*
+Usage example:
+
+// Using the class directly
+$body = new Body('Sample content');
+echo $body->output();
+
+// Using the static factory method
+$body2 = HtmlElement::body('Sample content');
+echo $body2->output();
+*/

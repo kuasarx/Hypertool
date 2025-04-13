@@ -22,3 +22,14 @@ class Del extends HtmlElement {
 // $deletedText->text('This content has been deleted.');
 // 
 // echo $deletedText->output();
+/*
+Usage example:
+
+// Using the class directly
+$del = new Del('Sample content');
+echo $del->output();
+
+// Using the static factory method
+$del2 = HtmlElement::del('Sample content');
+echo $del2->output();
+*/

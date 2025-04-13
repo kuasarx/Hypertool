@@ -10,3 +10,15 @@ class P extends HtmlElement {
 // $paragraph = new P('This is a paragraph.');
 // 
 // echo $paragraph->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$p = new P('Sample content');
+echo $p->output();
+
+// Using the static factory method
+$p2 = HtmlElement::p('Sample content');
+echo $p2->output();
+*/

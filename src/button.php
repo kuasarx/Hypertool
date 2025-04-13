@@ -29,3 +29,15 @@ class Button extends HtmlElement {
 
 
 
+
+/*
+Usage example:
+
+// Using the class directly
+$button = new Button('Sample content');
+echo $button->output();
+
+// Using the static factory method
+$button2 = HtmlElement::button('Sample content');
+echo $button2->output();
+*/

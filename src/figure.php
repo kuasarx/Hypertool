@@ -12,3 +12,15 @@ class Figure extends HtmlElement {
 // $figure->setImage('sunset.jpg', 'Sunset over the ocean');
 // 
 // echo $figure->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$figure = new Figure('Sample content');
+echo $figure->output();
+
+// Using the static factory method
+$figure2 = HtmlElement::figure('Sample content');
+echo $figure2->output();
+*/

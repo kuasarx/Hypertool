@@ -14,3 +14,15 @@ class Iframe extends HtmlElement {
 //       ->setClass('iframe-class');
 // 
 // echo $iframe->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$iframe = new Iframe('Sample content');
+echo $iframe->output();
+
+// Using the static factory method
+$iframe2 = HtmlElement::iframe('Sample content');
+echo $iframe2->output();
+*/

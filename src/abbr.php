@@ -22,3 +22,15 @@ class Abbr extends HtmlElement {
 // Usage example
 // $abbreviation = new Abbr('HTML', 'Hypertext Markup Language');
 // echo $abbreviation->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$abbr = new Abbr('Sample content');
+echo $abbr->output();
+
+// Using the static factory method
+$abbr2 = HtmlElement::abbr('Sample content');
+echo $abbr2->output();
+*/

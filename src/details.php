@@ -20,3 +20,15 @@ class Details extends HtmlElement {
 // $details->text('This is the content of the details.');
 // 
 // echo $details->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$details = new Details('Sample content');
+echo $details->output();
+
+// Using the static factory method
+$details2 = HtmlElement::details('Sample content');
+echo $details2->output();
+*/

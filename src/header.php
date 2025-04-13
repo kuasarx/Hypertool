@@ -10,3 +10,15 @@ class Header extends HtmlElement {
 // $header->setClass('header-class')->setText('Welcome to our website');
 // 
 // echo $header->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$header = new Header('Sample content');
+echo $header->output();
+
+// Using the static factory method
+$header2 = HtmlElement::header('Sample content');
+echo $header2->output();
+*/

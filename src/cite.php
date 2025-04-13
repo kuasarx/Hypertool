@@ -11,3 +11,15 @@ class Cite extends HtmlElement {
 // $cite->setClass('quotation'); // Add class attribute
 // 
 // echo $cite->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$cite = new Cite('Sample content');
+echo $cite->output();
+
+// Using the static factory method
+$cite2 = HtmlElement::cite('Sample content');
+echo $cite2->output();
+*/

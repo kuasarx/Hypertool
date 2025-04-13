@@ -14,3 +14,15 @@ class Blockquote extends HtmlElement {
 // $blockquote = new Blockquote();
 // $blockquote->setCite('https://example.com')->text('This is a quote.');
 // echo $blockquote->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$blockquote = new Blockquote('Sample content');
+echo $blockquote->output();
+
+// Using the static factory method
+$blockquote2 = HtmlElement::blockquote('Sample content');
+echo $blockquote2->output();
+*/

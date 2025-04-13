@@ -13,3 +13,15 @@ class Output extends HtmlElement {
 //        ->setClass('output-style');
 // 
 // echo $output->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$output = new Output('Sample content');
+echo $output->output();
+
+// Using the static factory method
+$output2 = HtmlElement::output('Sample content');
+echo $output2->output();
+*/

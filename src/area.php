@@ -34,3 +34,14 @@ $area->setShape('rect')->setCoords('0,0,100,100')->setHref('https://www.example.
 
 echo $area->output(); // Output the generated <area> element
 */
+/*
+Usage example:
+
+// Using the class directly
+$area = new Area('Sample content');
+echo $area->output();
+
+// Using the static factory method
+$area2 = HtmlElement::area('Sample content');
+echo $area2->output();
+*/

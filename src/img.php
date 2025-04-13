@@ -11,3 +11,14 @@ class Img extends HtmlElement {
 // $img->setAlt('Image Alt Text')->setWidth(300)->setHeight(200);
 // 
 // echo $img->output();
+/*
+Usage example:
+
+// Using the class directly
+$img = new Img('Sample content');
+echo $img->output();
+
+// Using the static factory method
+$img2 = HtmlElement::img('Sample content');
+echo $img2->output();
+*/

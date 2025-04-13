@@ -19,3 +19,14 @@ class Meter extends HtmlElement {
 // $meter->setClass('meter-class')->setId('meter-id');
 // 
 // echo $meter->output();
+/*
+Usage example:
+
+// Using the class directly
+$meter = new Meter('Sample content');
+echo $meter->output();
+
+// Using the static factory method
+$meter2 = HtmlElement::meter('Sample content');
+echo $meter2->output();
+*/

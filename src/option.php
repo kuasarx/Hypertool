@@ -12,3 +12,15 @@ class Option extends HtmlElement {
 // $option->setId('optionID')->setClass('optionClass');
 // 
 // echo $option->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$option = new Option('Sample content');
+echo $option->output();
+
+// Using the static factory method
+$option2 = HtmlElement::option('Sample content');
+echo $option2->output();
+*/

@@ -11,3 +11,15 @@ class Object extends HtmlElement {
 // $htmlObject->setData('video.mp4')->setType('video/mp4')->setWidth('640')->setHeight('360');
 // 
 // echo $htmlObject->output();
+
+/*
+Usage example:
+
+// Using the class directly
+$object = new Object('Sample content');
+echo $object->output();
+
+// Using the static factory method
+$object2 = HtmlElement::object('Sample content');
+echo $object2->output();
+*/

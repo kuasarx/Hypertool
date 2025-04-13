@@ -8,3 +8,14 @@ class I extends HtmlElement {
 // Usage example
 // $hr = new I();
 // echo $hr->output(); // Outputs: "<i></i>"
+/*
+Usage example:
+
+// Using the class directly
+$i = new I('Sample content');
+echo $i->output();
+
+// Using the static factory method
+$i2 = HtmlElement::i('Sample content');
+echo $i2->output();
+*/
